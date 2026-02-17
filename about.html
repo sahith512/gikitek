@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gikitek | About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container"
+            style="max-width: var(--container-max); margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 100%; padding: 0 var(--space-3);">
+            <a href="/" class="logo" style="display: flex; flex-direction: column;">
+                <span class="logo-main">gik<span class="logo-accent">&#299;</span>t&#233;k</span>
+                <span class="logo-sub"
+                    style="color: var(--color-accent); font-weight: 600; font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; margin-top: 2px;">An
+                    Akashaja Group Company</span>
+            </a>
+
+            <ul class="nav-links" style="display: flex; gap: var(--space-4); list-style: none;">
+                <li class="nav-item">
+                    <a href="/solutions.html" class="nav-link">Solutions</a>
+                    <!-- Mega Menu for Solutions -->
+                    <div class="mega-menu">
+                        <div class="mega-menu-container">
+                            <div class="mega-col">
+                                <div class="mega-col-title">Categories</div>
+                                <ul class="mega-list">
+                                    <li class="mega-list-item"><a href="/solutions.html#erp" class="mega-link">ERP
+                                            Systems</a></li>
+                                    <li class="mega-list-item"><a href="/solutions.html#ai" class="mega-link">AI &
+                                            Automation</a></li>
+                                    <li class="mega-list-item"><a href="/solutions.html#cloud" class="mega-link">Cloud
+                                            Infrastructure</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-col">
+                                <div class="mega-col-title">Featured Capability</div>
+                                <div class="mega-featured-card">
+                                    <div
+                                        style="color: var(--color-accent); font-size: 1.5rem; margin-bottom: var(--space-2);">
+                                        ??</div>
+                                    <h4 style="color: var(--color-text-header); margin-bottom: var(--space-1);">
+                                        Enterprise Integration</h4>
+                                    <p
+                                        style="font-size: 14px; color: var(--color-text-body); margin-bottom: var(--space-2);">
+                                        Connecting legacy systems with modern cloud architecture.</p>
+                                    <a href="/solutions.html#integration"
+                                        style="color: var(--color-accent); font-weight: 600; font-size: 14px;">Explore
+                                        ?</a>
+                                </div>
+                            </div>
+                            <div class="mega-col">
+                                <div class="mega-col-title">Resources</div>
+                                <div
+                                    style="background: var(--color-muted); padding: var(--space-3); border-radius: var(--radius-xl);">
+                                    <p
+                                        style="font-size: 14px; color: var(--color-text-body); margin-bottom: var(--space-2);">
+                                        �Governance-first delivery model leads to 40% reduction in debt.�</p>
+                                    <a href="/engineering.html" class="btn-nav"
+                                        style="padding: 10px 16px; font-size: 12px;">View Architecture</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="/products.html" class="nav-link">Products</a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-container">
+                            <div class="mega-col">
+                                <div class="mega-col-title">Core Platforms</div>
+                                <ul class="mega-list">
+                                    <li class="mega-list-item"><a href="/products.html#erp" class="mega-link">Oracle/SAP
+                                            Modules</a></li>
+                                    <li class="mega-list-item"><a href="/products.html#crm" class="mega-link">Salesforce
+                                            Solutions</a></li>
+                                    <li class="mega-list-item"><a href="/products.html#hcm" class="mega-link">HR &
+                                            Capital Management</a></li>
+                                </ul>
+                            </div>
+                            <div class="mega-col">
+                                <div class="mega-col-title">Product Showcase</div>
+                                <div class="mega-featured-card">
+                                    <div
+                                        style="color: var(--color-accent); font-size: 1.5rem; margin-bottom: var(--space-2);">
+                                        ??</div>
+                                    <h4 style="color: var(--color-text-header); margin-bottom: var(--space-1);">Custom
+                                        ERP Modules</h4>
+                                    <p
+                                        style="font-size: 14px; color: var(--color-text-body); margin-bottom: var(--space-2);">
+                                        Tailored business logic on top of standard platforms.</p>
+                                </div>
+                            </div>
+                            <div class="mega-col">
+                                <div class="mega-col-title">Support</div>
+                                <p style="font-size: 14px; color: var(--color-text-body);">24/7 Managed services for
+                                    global operations.</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="/engineering.html" class="nav-link">Engineering</a></li>
+                <li class="nav-item"><a href="/about.html" class="nav-link active">About</a></li>
+            </ul>
+
+            <button class="mobile-nav-toggle" id="mobileNavToggle">?</button>
+
+            <a href="/contact.html" class="btn-nav"
+                style="padding: 0.75rem 1.5rem; background: var(--color-accent); border-radius: var(--radius-xl); color: var(--color-white); font-weight: 600; text-decoration: none; transition: var(--duration-fast);">Talk
+                to us</a>
+        </div>
+    </nav>
+
+    <div class="main-content">
+        <div class="hero-spacer"></div>
+
+        <!-- HERO SECTION -->
+        <section class="hero-section" style="text-align: left;">
+            <div class="container">
+                <span class="hero-label">Corporate Profile</span>
+                <h1 class="fluid-h1">The Architects of Stability</h1>
+                <p class="fluid-p">
+                    gikitek Private Limited is the technology arm of Akashaja Group.
+                    We exist to build the digital infrastructure that powers large-scale enterprise operations.
+                </p>
+            </div>
+        </section>
+
+        <!-- MISSION / NARRATIVE -->
+        <section class="section-padding section-bg-surface">
+            <div class="container">
+                <div class="narrative-split">
+                    <div class="narrative-content">
+                        <div class="accent-title">Our Mandate</div>
+                        <h2 class="section-title">Engineering for the Long Haul</h2>
+                        <p class="section-description" style="margin-left: 0; text-align: left;">
+                            In a world of fleeting digital trends, gikitek stands for permanence.
+                            As part of the Akashaja Group, we bring a conglomerate mindset to technology:
+                            structured, compliant, and capital-efficient.
+                        </p>
+                        <p style="margin-top: 1.5rem; color: var(--color-text-body);">
+                            We don't just write code; we architect systems that manage millions in revenue,
+                            handle complex supply chains, and ensure statutory compliance across borders.
+                        </p>
+                    </div>
+                    <div class="narrative-visual" style="align-items: center;">
+                        <div
+                            style="padding: 2rem; background: var(--color-bg); border-radius: 12px; border: 1px solid var(--color-border);">
+                            <div
+                                style="font-family: var(--font-display); font-size: 1.25rem; font-weight: 600; margin-bottom: 1rem;">
+                                Core Values</div>
+                            <ul
+                                style="list-style: none; padding: 0; line-height: 2.5; color: var(--color-text-secondary);">
+                                <li>? <strong>Governance First:</strong> No code without compliance.</li>
+                                <li>? <strong>Operational Reality:</strong> Systems that mirror actual workflows.</li>
+                                <li>? <strong>Capital Discpline:</strong> ROI-focused technology investment.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <div class="footer-logo-main">gik<span class="logo-accent">&#299;</span>t&#233;k</div>
+                        <div class="footer-logo-sub">An Akashaja Group Company</div>
+                    </div>
+                    <p>Enterprise technology solutions for scalable business operations. ERP, CRM, AI/ML, and cloud
+                        infrastructure.</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Corporate Headquarters</h4>
+                    <p>901, Galaxy Blue Sapphire Plaza<br>Greater Noida West<br>Uttar Pradesh 201306, India</p>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Regional Office</h4>
+                    <p>H. No. 46, Near 40 Feet Road<br>Parahupur, Mughalsarai<br>Uttar Pradesh, India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>� 2024 gikitek Private Limited. An Akashaja Group Company. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div class="chat-widget" id="chatWidget">&#128172;<div class="chat-tooltip">Talk to our team</div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+`n</body>
+
+</html>
+
+
+
+
+
